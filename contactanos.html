@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ala|Cafeteria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  </head>
+  <body>
+
+    <!--HEADER-->
+    <header id="full">
+        <nav class="navbar navbar-expand-lg text-bg-dark fixed-top-shadow" data-bs-theme="dark">
+        <div class="container-fluid"> 
+          <figure class="m-0">
+            <div><a href="index.html"><img src="logo-principal.png" class="logo mx-3" alt="logo coffee"></a>
+            
+          </div>
+          </figure>
+          <a class="navbar-brand" href="#">ALA-CAFETERIA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MENÚ
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="desayuno.html">Desayuno</a></li>
+                  <li><a class="dropdown-item" href="almuerzos.html">Almuerzo</a></li>
+                  <li><a class="dropdown-item" href="cena_merienda.html">Cena/Merienda</a></li>
+                </ul>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="contactanos.html">CONTÁTANOS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    
+
+    <section class="contactanos">
+      <h2 class="  text-aline text-center" id="contacto">CONTÁCTANOS</h2>
+    
+      <section class="container py-5">
+      
+    
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-xl-12 d-flex justify-content-center align-items-center">
+           
+            <form action="" method="post" enctype="multipart/form-data">
+            <div class="m-3"><input type="text" name="NOMBRE" placeholder="Nombre" required class="rounded-1"></div>
+            <div class="m-3"><input type="text" name="APELLIDO" placeholder="Apellido" required class="rounded-1"></div>
+            <div class="m-3"><input type="number" name="EDAD" placeholder="Edad" required class="rounded-1"></div>
+            <div class="m-3"><input type="text" name="CORREO" placeholder="Correo" required class="rounded-1"></div>
+            <div>
+              <textarea name="" id="" cols="23" rows="5" placeholder="Asunto" class="m-3 rounded-1"></textarea>
+          </div>
+    
+          <div class="btn">
+            <button class="btn btn-dark" type="submit" value="Enviar">Enviar</button>
+            <button class="btn btn-dark" type="reset" value="Borrar">Borrar</button>
+          </div>
+           </form>
+          </div>
+      </section>
+    </section>
+
+            <section id="servicus my-1" class="container-fluid">
+              <header>
+                  <h2 class="display-5 py-1 text-center">Pregúntas Frecuentes</h2>
+              </header>
+  
+              <div class="row">
+                  <div class="col-12 col-md-6">
+                      <div class="accordion" id="accordionExample1">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUNO" aria-expanded="true" aria-controls="collapseUno">
+                                COMO HACER EL PEDIDO
+                              </button>
+                            </h2>
+                            <div id="collapseUNO" class="accordion-collapse collapse show" data-bs-parent="#accordionExample1">
+                              <div class="accordion-body">
+                                 It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the though the transition does limit overflow.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDOS" aria-expanded="false" aria-controls="collapseDOS">
+                                DONDE SE RETIRA
+                              </button>
+                            </h2>
+                            <div id="collapseDOS" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+                              <div class="accordion-body">
+                                It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                              </div>
+                            </div>
+                          </div>
+                         
+                        </div>
+                      </div>
+                     
+                  <div class="col-12 col-md-6">
+  
+                      <div class="accordion" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                               TRABAJA CON NOSOTROS
+                              </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                 FRANQUICIAS
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+
+
+                          
+                            
+                        </div>
+  
+                  
+              </div>
+              </section>
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!--FOOTER-->
+    <footer class="container-fluid text-bg-dark text-center py-5"> 
+  
+        <hr>
+        
+        <div class="row">
+              <div class="col-12 col-md-4 mb-2">
+                <ul>
+                  <div class="col-12 col-md-4 mb-2">
+                  <li class="d-flex align-items-center ">
+                    <i class="bi bi-geo-alt fs-4"></i>
+                    <a href="" class="ps-2 m-0 text-decoration-none">Surf Coffee</a>
+                  </li>
+                
+      
+                  <li class="d-flex align-items-center">
+                    <i class="bi bi-phone fs-4"></i>
+                    <a href="" class="ps-2 m-0 text-decoration-none">114555222</a>
+                    
+                  </li>
+      
+                  <li class="d-flex align-items-center">
+                    <i class="bi bi-envelope fs-4"></i>
+                    <a href="" class="ps-2 m-0 text-decoration-none">email@surfcoffee.com</a>
+                  </li>
+                </ul>
+              </div>
+      
+          <div class="col-12 col-md-4 mb-2">
+            <p class="fs-4">Horario de atención</p>
+            
+            <ul class="p-0">
+              <li>Lunes - Viernes</li>
+              <li>7:00am - 18:00pm</li>
+            </ul>
+          </div>
+      
+          <div class="col-12 col-md-4 mb-2">
+            
+            <ul class="p-0 d-flex justify-content-center">
+              <li class="p-3 fs-3"><a href="#"><i class="bi bi-instagram"></i></a></li>
+              <li class="p-3 fs-3"><a href="#"><i class="bi bi-twitter-x"></i></a></li>
+              <li class="p-3 fs-3"><a href="#"><i class="bi bi-facebook"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      
+        
+        <div class="row w-75 mx-auto">
+          <hr>
+          <p>&copy; Codo a Codo</p>
+        </div>
+
+       <a href="#full"> <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35 " fill="currentColor"  class="bi bi-arrow-up-circle aini text-black" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z "/>
+        </svg></a>
+      </footer>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        </body>
+      </html>
